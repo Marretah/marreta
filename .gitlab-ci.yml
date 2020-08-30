@@ -4,6 +4,6 @@ stages:
 
 build node:
     stage: build
-    image: From node:12.16.1
+    image: node:12.16.1
     script:
-        - node restore && node build
+        - #node server.js
