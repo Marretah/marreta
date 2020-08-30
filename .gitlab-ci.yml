@@ -4,6 +4,6 @@ stages:
 
 build node:
     stage: build
-    image: node:12.16.1
+    image: node:current
     script:
-        - node server.js
+        - ls
