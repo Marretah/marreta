@@ -6,4 +6,4 @@ build node:
     stage: build
     image: node:12.16.1
     script:
-        - #node server.js
+        - node server.js
